@@ -15,6 +15,7 @@ class App < Sinatra::Base
   end
 
   get '/status' do
+    @refresh = params[:refresh] == 'true'
     @status = PegasusStatus.new.check!
 
     respond_to do |wants|
