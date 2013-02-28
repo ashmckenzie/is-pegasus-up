@@ -1,0 +1,53 @@
+body {
+  display: table;
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#status {
+  margin-left: auto;
+  margin-right: auto;
+  width: 840px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20em;
+  margin: 0;
+  padding: 0 0 30px 0;
+}
+
+.up {
+  background-color: rgb(42, 240, 42);
+}
+
+.down {
+  background-color: red;
+}
+
+.check {
+  display: table;
+  margin: 10px auto;
+}
+
+.check label, .check span {
+  display: table-cell;
+}
+
+.check label {
+  width: 70px;
+  text-align: right;
+}
+
+.check span {
+  padding-left: 6px;
+}
