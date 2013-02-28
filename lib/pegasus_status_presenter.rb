@@ -18,6 +18,10 @@ class PegasusStatusPresenter
     up? ? 'Y' : 'N'
   end
 
+  def icon
+    up? ? 'icon-thumbs-up' : 'icon-thumbs-down'
+  end
+
   def up?
     @up ||= search_up? && booking_up?
   end
