@@ -15,7 +15,7 @@ class PegasusStatusPresenter
   end
 
   def description
-    up? ? 'Yup' : 'Nope'
+    up? ? 'Y' : 'N'
   end
 
   def up?
